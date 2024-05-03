@@ -15,6 +15,7 @@ THIRD PARTY PACKAGES :
 * cors
 * uuid
 * cloudinary
+* dotenv
 
 TABLE SCHEMA:
 
@@ -32,8 +33,8 @@ images :
 APIs-1
 
 Method: post,
-url : ,
-body-fomate : File,
+url : https://wellnessz-y8cg.onrender.com,
+body-format : File,
 body-content : title,description,tag,image 
 
 RESPONSE:
@@ -46,7 +47,7 @@ FAILURE CASE:
 
 API-2
 
-url : 
+url : https://wellnessz-y8cg.onrender.com
 method : GET   
 query  : keyword , tag , limit, offset 
 
