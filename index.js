@@ -9,8 +9,8 @@ const cloudinary = require('cloudinary').v2;
 
 app.use(express.json());
 app.use(cors);
-app.listen(3001,()=>{
-    console.log("server running on port 3001");
+app.listen(3000,()=>{
+    console.log("server running on port 3000");
 })
 
 const db = new sqlite3.Database("wellnessz.db");
